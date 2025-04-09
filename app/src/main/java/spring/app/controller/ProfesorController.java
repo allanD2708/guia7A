@@ -52,10 +52,6 @@ public class ProfesorController {
         return "redirect:/profesores";
     }
     
-    @GetMapping("/allan/{id}")
-    public String eliminar(@PathVariable String id) {
-        profesorService.eliminar(id);
-        return "redirect:/profesores";
-    }
+   
     
 }

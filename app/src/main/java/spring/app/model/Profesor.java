@@ -5,15 +5,17 @@ public class Profesor {
     private String name;
     private String address;
     private String phone;
+    private String x;
 
     public Profesor() {
     }
     
-    public Profesor(String id, String name, String address, String phone) {
+    public Profesor(String id, String name, String address, String phone, String x) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.phone = phone;
+        this.x = x;
     }
 
     public String getId() {
